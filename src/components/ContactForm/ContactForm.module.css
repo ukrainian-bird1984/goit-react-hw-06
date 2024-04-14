@@ -1,0 +1,40 @@
+.user {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: auto;
+}
+
+.input {
+    margin-bottom: 10px;
+}
+
+.input span {
+    display: block;
+    font-weight: bold;
+}
+
+.input input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.input input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
