@@ -1,15 +1,11 @@
-.name {
-    margin-bottom: 10px;
+.search {
+    margin-bottom: 20px;
 }
 
 .input {
-    width: 100%;
-    padding: 8px;
+    padding: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-}
-
-.input:focus {
-    outline: none;
-    border-color: #007bff;
+    width: 100%;
+    box-sizing: border-box;
 }

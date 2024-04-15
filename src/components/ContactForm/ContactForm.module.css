@@ -1,40 +1,39 @@
-.user {
+.name {
     display: flex;
     flex-direction: column;
-    width: 300px;
-    margin: auto;
 }
 
-.input {
+.label {
     margin-bottom: 10px;
 }
 
-.input span {
-    display: block;
+span {
     font-weight: bold;
 }
 
-.input input {
-    width: 100%;
-    padding: 8px;
+input[type="text"],
+input[type="tel"] {
+    padding: 5px;
+    margin-top: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
 }
 
-.input input:focus {
-    outline: none;
-    border-color: #007bff;
+span.error {
+    color: red;
+    font-size: 0.8em;
 }
 
 .button {
-    background-color: #007bff;
-    color: #fff;
+    background-color: #008cba;
+    color: white;
     border: none;
-    padding: 10px;
     border-radius: 5px;
+    padding: 10px;
     cursor: pointer;
+    transition: background-color 0.3s;
 }
 
 .button:hover {
-    background-color: #0056b3;
+    background-color: #005f6b;
 }
