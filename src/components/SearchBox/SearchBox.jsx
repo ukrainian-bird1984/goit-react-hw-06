@@ -6,8 +6,8 @@ const SearchBox = () => {
   const dispatch = useDispatch();
   const filterValue = useSelector(selectNameFilter);
 
-  const handleFilter = e => {
-    const filterValue = e.target.value;
+  const handleFilter = event => {
+    const filterValue = event.target.value;
     dispatch(changeFilter(filterValue));
   };
 
